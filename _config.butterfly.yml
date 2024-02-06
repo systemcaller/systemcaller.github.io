@@ -37,7 +37,7 @@ highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
 highlight_height_limit: 230 # unit: px
-code_word_wrap: false
+code_word_wrap: true # 如果你不希望在代码块的区域里有横向滚动条的话，那么你可以考虑开启这个功能。
 
 # copy settings
 # copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)
@@ -198,7 +198,7 @@ index_post_content:
   length: 500 # if you set method to 2 or 3, the length need to config
 
 # anchor
-# when you scroll in post, the URL will update according to header id.
+# 开启文章锚点后，当你在文章页进行滚动时，文章链接会根据标题ID进行替换。注意: 每替换一次，会留下一个歷史记录。所以如果一篇文章有很多锚点的话，网页的歷史记录会很多。
 anchor: false
 
 # Post
@@ -212,6 +212,7 @@ toc:
   expand: false
   style_simple: true # for post
 
+# 文章版权设置，文章页Front-matter中单独设置copyright: false 转载文章可以不显示版权
 post_copyright:
   enable: true
   decode: true
@@ -259,7 +260,7 @@ post_pagination: 1
 noticeOutdate:
   enable: true
   style: flat # style: simple/flat
-  limit_day: 365 # When will it be shown
+  limit_day: 3650 # When will it be shown
   position: top # position: top/bottom
   message_prev: It has been
   message_next: days since the last update, the content of the article may be outdated.
