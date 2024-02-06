@@ -1,0 +1,24 @@
+- class_name: 0.推荐网站🍔
+  class_desc: 这里是最熟悉的小伙伴或者赞助商，当然是最前排啦
+  link_list: 
+    - name: Fomalhaut🥝
+      link: https://www.fomal.cc/
+      avatar: /assets/avatar.jpeg
+      descr: Future is now 🍭🍭🍭
+      siteshot: https://source.fomal.cc/siteshot/www.fomal.cn.jpg
+    - name: Fomalhaut2🥝
+      link: https://www.fomal.cc/
+      avatar: /assets/avatar.jpeg
+      descr: Future is now 🍭🍭🍭
+      siteshot: https://source.fomal.cc/siteshot/www.fomal.cn.jpg
+
+- class_name: 1.保障网站
+  class_desc: 这里是最熟悉的小伙伴或者赞助商，当然是最前排啦
+  link_list: 
+    - name: 宝藏
+      link: https://www.fomal.cc/
+      avatar: /assets/avatar.jpeg
+      descr: Future is now 🍭🍭🍭
+      siteshot: https://source.fomal.cc/siteshot/www.fomal.cn.jpg
+
+
