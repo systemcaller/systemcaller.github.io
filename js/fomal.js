@@ -1113,13 +1113,13 @@ function changeMouseMode() {
 var now1 = new Date();
 
 function createtime1() {
-  var grt = new Date("08/09/2022 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  var grt = new Date("08/09/2023 00:00:00"); //此处修改你的建站时间或者网站上线时间
   now1.setTime(now1.getTime() + 250);
   var days = (now1 - grt) / 1000 / 60 / 60 / 24;
   var dnum = Math.floor(days);
 
   var ascll = [
-    `欢迎来到Fomalhaut🥝の小家!`,
+    `欢迎来到SystemCaller🥝の小家!`,
     `Future is now 🍭🍭🍭`,
     `
         
@@ -1133,7 +1133,7 @@ function createtime1() {
     "小站已经苟活",
     dnum,
     "天啦!",
-    "©2022 By Fomalhaut",
+    "©2022 By SystemCaller",
   ];
 
   setTimeout(
@@ -1172,7 +1172,7 @@ function createtime2() {
   setTimeout(
     console.warn.bind(
       console,
-      "%c ⚡ Powered by Fomalhaut🥝 %c 你正在访问Fomalhaut🥝の小家",
+      "%c ⚡ Powered by SystemCaller🥝 %c 你正在访问SystemCaller🥝の小家",
       "color:white; background-color:#f0ad4e",
       ""
     )
@@ -1282,8 +1282,8 @@ function share_() {
   try {
     // 截取标题
     var title = document.title;
-    var subTitle = title.endsWith("| Fomalhaut🥝") ? title.substring(0, title.length - 14) : title;
-    navigator.clipboard.writeText('Fomalhaut🥝的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
+    var subTitle = title.endsWith("| 'SystemCaller🥝") ? title.substring(0, title.length - 14) : title;
+    navigator.clipboard.writeText('SystemCaller🥝的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
     new Vue({
       data: function () {
         this.$notify({
@@ -3174,10 +3174,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/dm14.webp);
-    --darkmode-bg:url(https://lskypro.acozycotage.net/Fomalhaut/img/yuanshen1.webp);
-    --mobileday-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/snow.webp);
-    --mobilenight-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/mb8.webp);
+    --default-bg: url(/assets/background/home_bg.webp);
+    --darkmode-bg:url(/assets/background/yuanshen1.webp);
+    --mobileday-bg: url(/assets/background/mb19.webp);
+    --mobilenight-bg: url(/assets/background/mb4.webp);
   }`;
 }
 // 切换背景主函数
@@ -3407,7 +3407,7 @@ function createWinbox() {
 <h3>1. 二次元</h3>
 <details class="folding-tag" cyan><summary> 查看二次元背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(/assets/background/yuanshen1.webp)" class="imgbox" onclick="changeBg('url(/assets/background/yuanshen1.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(/assets/background/dm2.webp)" class="imgbox" onclick="changeBg('url(/assets/background/dm2.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(/assets/background/dm8.webp)" class="imgbox" onclick="changeBg('url(/assets/background/dm8.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(/assets/background/dm11.webp)" class="imgbox" onclick="changeBg('url(/assets/background/dm11.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(/assets/background/dm15.webp)" class="imgbox" onclick="changeBg('url(/assets/background/dm15.webp)')"></a></div>
               </div>
             </details>
 
@@ -3448,7 +3448,7 @@ function createWinbox() {
 <h3>6. 适配手机</h3>
 <details class="folding-tag" cyan><summary> 查看适配手机的背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://lskypro.acozycotage.net/Fomalhaut/img/mb4.webp)" class="pimgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/mb4.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(/assets/background/mb4.webp)" class="pimgbox" onclick="changeBg('url(/assets/background/mb4.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(/assets/background/mb7.webp)" class="pimgbox" onclick="changeBg('url(/assets/background/mb7.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(/assets/background/mb16.webp)" class="pimgbox" onclick="changeBg('url(/assets/background/mb16.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(/assets/background/mb19.webp)" class="pimgbox" onclick="changeBg('url(/assets/background/mb19.webp)')"></a></div>
               </div>
             </details>
 
